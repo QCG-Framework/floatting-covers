@@ -279,7 +279,12 @@ export default function LocalePage({ locale }: LocalePageProps) {
               <p className="text-sm font-semibold text-slate-900">H INNOV LLC</p>
               <p className="text-sm text-slate-600">8 The Green, 19901 Dover (DE) USA</p>
               <p className="text-sm text-slate-600">+1 302 412 0346</p>
-              <p className="text-sm text-slate-600">hinnovcompamy@gmail.com</p>
+              <Link
+                href="mailto:hinnovcompamy@gmail.com"
+                className="text-sm font-semibold text-slate-700 hover:text-slate-900"
+              >
+                hinnovcompamy@gmail.com
+              </Link>
             </div>
             <div className="flex flex-col gap-3">
               <Link

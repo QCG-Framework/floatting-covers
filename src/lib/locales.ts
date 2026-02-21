@@ -241,8 +241,9 @@ export const content = {
     legal: {
       title: "Legal information",
       body:
-        "H INNOV LLC is a distributor of AWTT products. We do not manufacture the products presented on this site.",
-      rights: "All intellectual property rights are reserved."
+        "H INNOV LLC acts as a distributor of AWTT products. The products shown on this website are not manufactured by H INNOV LLC.",
+      rights:
+        "All trademarks, product names, and content remain the property of their respective owners. All rights reserved."
     },
     sitemap: {
       title: "Sitemap",
@@ -504,8 +505,9 @@ export const content = {
     legal: {
       title: "Mentions légales",
       body:
-        "H INNOV LLC est distributeur des produits AWTT. Nous ne fabriquons pas les produits présentés sur ce site.",
-      rights: "Tous les droits de propriété intellectuelle sont réservés."
+        "H INNOV LLC agit en tant que distributeur des produits AWTT. Les produits présentés sur ce site ne sont pas fabriqués par H INNOV LLC.",
+      rights:
+        "Les marques, noms de produits et contenus restent la propriété de leurs détenteurs respectifs. Tous droits réservés."
     },
     sitemap: {
       title: "Plan du site",
@@ -759,8 +761,9 @@ export const content = {
     legal: {
       title: "Informacje prawne",
       body:
-        "H INNOV LLC jest dystrybutorem produktów AWTT. Nie produkujemy produktów prezentowanych na tej stronie.",
-      rights: "Wszelkie prawa własności intelektualnej są zastrzeżone."
+        "H INNOV LLC działa jako dystrybutor produktów AWTT. Produkty prezentowane na tej stronie nie są wytwarzane przez H INNOV LLC.",
+      rights:
+        "Znaki towarowe, nazwy produktów i treści pozostają własnością odpowiednich podmiotów. Wszelkie prawa zastrzeżone."
     },
     sitemap: {
       title: "Mapa strony",
