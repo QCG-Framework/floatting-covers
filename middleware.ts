@@ -1,7 +1,8 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { defaultLocale, locales } from "./src/lib/locales";
 
+const locales = ["en", "fr", "pl"] as const;
+const defaultLocale = "en";
 const PUBLIC_FILE = /\.(.*)$/;
 
 export function middleware(request: NextRequest) {
@@ -11,6 +12,7 @@ export function middleware(request: NextRequest) {
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
     pathname.startsWith("/favicon") ||
+    pathname.startsWith("/images") ||
     PUBLIC_FILE.test(pathname)
   ) {
     return NextResponse.next();
@@ -22,11 +24,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  const pathnameLocale = pathname.split("/")[1];
-  if (locales.includes(pathnameLocale as (typeof locales)[number])) {
-    const response = NextResponse.next();
-    response.cookies.set("site_locale", pathnameLocale);
-    return response;
+  const hasLocale = locales.some(
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
+  );
+
+  if (hasLocale) {
+    return NextResponse.next();
   }
 
   const url = request.nextUrl.clone();
