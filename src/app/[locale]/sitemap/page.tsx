@@ -1,4 +1,4 @@
-import SiteMapPage from "@/components/SiteMapPage";
+import SiteMapContent from "@/components/SiteMapPage";
 import { type Locale } from "@/lib/locales";
 
 type PageProps = {
@@ -7,5 +7,5 @@ type PageProps = {
 
 export default async function SiteMapPage({ params }: PageProps) {
   const { locale } = await params;
-  return <SiteMapPage locale={locale} />;
+  return <SiteMapContent locale={locale} />;
 }

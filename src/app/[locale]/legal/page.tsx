@@ -1,4 +1,4 @@
-import LegalPage from "@/components/LegalPage";
+import LegalContent from "@/components/LegalPage";
 import { type Locale } from "@/lib/locales";
 
 type PageProps = {
@@ -7,5 +7,5 @@ type PageProps = {
 
 export default async function LegalPage({ params }: PageProps) {
   const { locale } = await params;
-  return <LegalPage locale={locale} />;
+  return <LegalContent locale={locale} />;
 }
