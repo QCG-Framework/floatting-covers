@@ -216,13 +216,13 @@ export const content = {
       kicker: "Manufacturing",
       title: "Injection molding capabilities for full-scale production.",
       subtitle:
-        "We can manufacture floating cover components via injection molding, enabling consistent quality, rapid scaling, and cost-effective production runs.",
+        "Beyond floating covers, we can manufacture any plastic parts with new tooling through injection molding for consistent quality and scalable production.",
       body:
-        "Our production partners support large-volume injection molding to deliver precise, repeatable components. This ensures dimensional accuracy, UV-resistance, and long-term durability for deployments in harsh environments.",
+        "Our production partners support large-volume injection molding to deliver precise, repeatable components. With new molds, we can produce custom parts beyond floating cover systems.",
       points: [
-        "Scalable manufacturing for enterprise projects",
-        "Material selection tailored to climate and chemical exposure",
-        "Fast tooling with repeatable quality control"
+        "Custom tooling for new parts and applications",
+        "Material selection tailored to the intended use",
+        "Scalable production with repeatable quality control"
       ]
     },
     contact: {
@@ -523,13 +523,13 @@ export const content = {
       kicker: "Fabrication",
       title: "Capacités d’injection plastique pour une production à grande échelle.",
       subtitle:
-        "Nous pouvons produire les composants via injection molding pour une qualité constante et une montée en charge rapide.",
+        "Au‑delà des couvertures flottantes, nous pouvons fabriquer toute pièce plastique avec de nouveaux moules par injection plastique.",
       body:
-        "Nos partenaires industriels assurent des volumes importants avec des tolérances précises et une excellente résistance UV.",
+        "Nos partenaires industriels assurent des volumes importants avec des tolérances précises. Avec de nouveaux moules, nous réalisons des pièces sur mesure au‑delà des couvertures flottantes.",
       points: [
-        "Production scalable pour projets industriels",
-        "Matériaux adaptés au climat et à l’exposition chimique",
-        "Outillage rapide et qualité répétable"
+        "Outillage sur mesure pour de nouvelles pièces",
+        "Matériaux adaptés à l’usage final",
+        "Production scalable et qualité répétable"
       ]
     },
     contact: {
@@ -822,13 +822,13 @@ export const content = {
       kicker: "Produkcja",
       title: "Możliwości wtrysku dla produkcji na dużą skalę.",
       subtitle:
-        "Wytwarzamy komponenty metodą wtrysku, zapewniając stałą jakość i szybkie skalowanie.",
+        "Poza pokrywami pływającymi możemy wytwarzać dowolne elementy z tworzyw sztucznych, korzystając z nowych form wtryskowych.",
       body:
-        "Partnerzy produkcyjni zapewniają duże wolumeny, precyzyjne tolerancje i odporność na UV.",
+        "Partnerzy produkcyjni zapewniają duże wolumeny i precyzyjne tolerancje. Dzięki nowym formom możemy produkować części niestandardowe poza systemami pokryw.",
       points: [
-        "Skalowalna produkcja dla dużych projektów",
-        "Dobór materiałów do klimatu i ekspozycji chemicznej",
-        "Szybkie narzędzia i powtarzalna kontrola jakości"
+        "Niestandardowe formy dla nowych zastosowań",
+        "Dobór materiałów do docelowego użycia",
+        "Skalowalna produkcja i powtarzalna jakość"
       ]
     },
     contact: {
