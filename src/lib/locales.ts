@@ -240,10 +240,53 @@ export const content = {
     },
     legal: {
       title: "Legal information",
-      body:
-        "H INNOV LLC acts as a distributor of AWTT products. The products shown on this website are not manufactured by H INNOV LLC.",
-      rights:
-        "All trademarks, product names, and content remain the property of their respective owners. All rights reserved."
+      intro:
+        "Welcome to the H INNOV LLC website. By accessing this site, you agree to comply with these Terms of Use.",
+      sections: [
+        {
+          title: "1. IDENTIFICATION AND APPLICABLE LAW",
+          body: [
+            "The Company is a Limited Liability Company (LLC) registered in the State of Delaware, United States.",
+            "Status: The Company acts as an independent distributor of products manufactured by AWTT Inc.",
+            "Applicable law: These Terms are governed by and interpreted in accordance with the laws of the State of Delaware, without regard to conflict of law principles.",
+            "Jurisdiction: Any dispute arising from the use of this website shall be subject to the exclusive jurisdiction of the courts located in the State of Delaware."
+          ]
+        },
+        {
+          title: "2. INTELLECTUAL PROPERTY AND THIRD-PARTY RIGHTS",
+          body: [
+            "The content of this site, including text, graphics, logos, and images, is the property of the Company, except for elements belonging to its partners.",
+            "AWTT trademarks: The names, logos, and technical sheets relating to AWTT products are the exclusive property of AWTT Inc. The Company uses them as an authorized distributor.",
+            "Restrictions: Any reproduction, distribution, or commercial use of the content of this site without the prior written authorization of the Company is strictly prohibited."
+          ]
+        },
+        {
+          title: "3. DISCLAIMERS",
+          emphasize: true,
+          body: [
+            "PRODUCT INFORMATION: DESCRIPTIONS, TECHNICAL PERFORMANCE (CHEMICAL OR THERMAL RESISTANCE, ETC.) AND VISUALS OF FLOATING COVERS ARE PROVIDED FOR INFORMATIONAL PURPOSES AND COME DIRECTLY FROM THE MANUFACTURER (AWTT). THE COMPANY DOES NOT GUARANTEE THAT THIS INFORMATION IS ERROR-FREE OR UP TO DATE.",
+            "USE OF THE SITE: THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE.” THE COMPANY PROVIDES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE OPERATION OF THIS SITE.",
+            "LIMITATION OF LIABILITY: IN NO EVENT SHALL THE COMPANY, ITS OFFICERS OR AGENTS BE LIABLE FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL (LOSS OF PROFIT, BUSINESS INTERRUPTION) OR PUNITIVE DAMAGES RESULTING FROM ACCESS TO OR INABILITY TO ACCESS THIS SITE."
+          ]
+        },
+        {
+          title: "4. THIRD-PARTY LINKS",
+          body: [
+            "This site may contain links to third-party websites, including the official website of AWTT. The Company has no control over the content, privacy policies, or practices of these third-party sites and disclaims all liability in this regard."
+          ]
+        },
+        {
+          title: "5. CHANGES TO THESE TERMS",
+          body: [
+            "The Company reserves the right to modify these Terms at any time and without prior notice.",
+            "It is your responsibility to review this page regularly.",
+            "Continued use of the site after changes are published constitutes full acceptance of the updated Terms."
+          ]
+        }
+      ],
+      contactLabel: "6. CONTACT",
+      contactText: "For any questions regarding these Terms, you can contact us at:",
+      contactEmail: "hinnovcompamy@gmail.com"
     },
     sitemap: {
       title: "Sitemap",
@@ -503,11 +546,54 @@ export const content = {
       sitemap: "Plan du site"
     },
     legal: {
-      title: "Mentions légales",
-      body:
-        "H INNOV LLC agit en tant que distributeur des produits AWTT. Les produits présentés sur ce site ne sont pas fabriqués par H INNOV LLC.",
-      rights:
-        "Les marques, noms de produits et contenus restent la propriété de leurs détenteurs respectifs. Tous droits réservés."
+      title: "Conditions Générales d’Utilisation",
+      intro:
+        "Bienvenue sur le site de H INNOV LLC. En accédant à ce site, vous acceptez de vous conformer aux présentes Conditions Générales d'Utilisation.",
+      sections: [
+        {
+          title: "1. IDENTIFICATION ET LOI APPLICABLE",
+          body: [
+            "La Société est une Limited Liability Company (LLC) enregistrée dans l'État du Delaware, États-Unis.",
+            "Statut : La Société agit en qualité de distributeur indépendant des produits fabriqués par la société AWTT Inc.",
+            "Droit applicable : Les présentes CGU sont régies et interprétées conformément aux lois de l'État du Delaware, sans égard aux principes de conflits de lois.",
+            "Juridiction : Tout litige découlant de l'utilisation de ce site web sera soumis à la compétence exclusive des tribunaux situés dans l'État du Delaware."
+          ]
+        },
+        {
+          title: "2. PROPRIÉTÉ INTELLECTUELLE ET DROITS DES TIERS",
+          body: [
+            "Le contenu de ce site, incluant les textes, graphismes, logos et images, est la propriété de la Société, à l'exception des éléments appartenant à ses partenaires.",
+            "Marques AWTT : Les noms, logos et fiches techniques relatifs aux produits AWTT sont la propriété exclusive de AWTT Inc. La Société les utilise en sa qualité de distributeur autorisé.",
+            "Restrictions : Toute reproduction, distribution ou utilisation commerciale du contenu de ce site sans l'autorisation écrite préalable de la Société est strictement interdite."
+          ]
+        },
+        {
+          title: "3. EXCLUSIONS DE RESPONSABILITÉ (DISCLAIMERS)",
+          emphasize: true,
+          body: [
+            "INFORMATIONS PRODUITS : LES DESCRIPTIONS, PERFORMANCES TECHNIQUES (RÉSISTANCE CHIMIQUE, THERMIQUE, ETC.) ET VISUELS DES COUVERTURES FLOTTANTES SONT FOURNIS À TITRE INDICATIF ET PROVIENNENT DIRECTEMENT DES DONNÉES DU FABRICANT (AWTT). LA SOCIÉTÉ NE GARANTIT PAS QUE CES INFORMATIONS SOIENT EXEMPTES D’ERREURS OU PARFAITEMENT À JOUR.",
+            "USAGE DU SITE : LE SERVICE EST FOURNI « EN L’ÉTAT » (« AS IS ») ET « SELON DISPONIBILITÉ ». LA SOCIÉTÉ NE DONNE AUCUNE GARANTIE, EXPRESSE OU IMPLICITE, CONCERNANT LE FONCTIONNEMENT DU SITE.",
+            "LIMITATION DE RESPONSABILITÉ : EN AUCUN CAS LA SOCIÉTÉ, SES DIRIGEANTS OU SES AGENTS NE POURRONT ÊTRE TENUS RESPONSABLES DES DOMMAGES DIRECTS, INDIRECTS, CONSÉCUTIFS (PERTE DE PROFIT, INTERRUPTION D’ACTIVITÉ) OU PUNITIFS RÉSULTANT DE L’ACCÈS OU DE L’IMPOSSIBILITÉ D’ACCÉDER À CE SITE."
+          ]
+        },
+        {
+          title: "4. LIENS VERS DES TIERS",
+          body: [
+            "Ce site peut contenir des liens vers des sites web tiers, y compris le site officiel de la société AWTT. La Société n’exerce aucun contrôle sur le contenu, les politiques de confidentialité ou les pratiques de ces sites tiers et décline toute responsabilité à cet égard."
+          ]
+        },
+        {
+          title: "5. MODIFICATIONS DES CONDITIONS",
+          body: [
+            "La Société se réserve le droit de modifier les présentes CGU à tout moment et sans préavis.",
+            "Il est de votre responsabilité de consulter régulièrement cette page.",
+            "L’utilisation continue du site après la publication de modifications constitue votre acceptation pleine et entière des nouvelles conditions."
+          ]
+        }
+      ],
+      contactLabel: "6. CONTACT",
+      contactText: "Pour toute question relative à ces CGU, vous pouvez nous contacter à l’adresse suivante :",
+      contactEmail: "hinnovcompamy@gmail.com"
     },
     sitemap: {
       title: "Plan du site",
@@ -759,11 +845,54 @@ export const content = {
       sitemap: "Mapa strony"
     },
     legal: {
-      title: "Informacje prawne",
-      body:
-        "H INNOV LLC działa jako dystrybutor produktów AWTT. Produkty prezentowane na tej stronie nie są wytwarzane przez H INNOV LLC.",
-      rights:
-        "Znaki towarowe, nazwy produktów i treści pozostają własnością odpowiednich podmiotów. Wszelkie prawa zastrzeżone."
+      title: "Warunki korzystania z serwisu",
+      intro:
+        "Witamy na stronie H INNOV LLC. Korzystając z tej strony, zgadzasz się przestrzegać niniejszych warunków.",
+      sections: [
+        {
+          title: "1. IDENTYFIKACJA I PRAWO WŁAŚCIWE",
+          body: [
+            "Spółka jest Limited Liability Company (LLC) zarejestrowaną w stanie Delaware, USA.",
+            "Status: Spółka działa jako niezależny dystrybutor produktów wytwarzanych przez AWTT Inc.",
+            "Prawo właściwe: Niniejsze warunki podlegają prawu stanu Delaware, bez względu na zasady kolizji prawa.",
+            "Jurysdykcja: Wszelkie spory wynikające z korzystania z tej strony podlegają wyłącznej jurysdykcji sądów stanu Delaware."
+          ]
+        },
+        {
+          title: "2. WŁASNOŚĆ INTELEKTUALNA I PRAWA OSÓB TRZECICH",
+          body: [
+            "Treści serwisu, w tym teksty, grafiki, logo i obrazy, należą do Spółki, z wyjątkiem elementów należących do partnerów.",
+            "Znaki AWTT: Nazwy, logotypy i karty techniczne produktów AWTT są wyłączną własnością AWTT Inc. Spółka używa ich jako autoryzowany dystrybutor.",
+            "Ograniczenia: Jakiekolwiek kopiowanie, dystrybucja lub wykorzystanie komercyjne treści bez pisemnej zgody Spółki jest zabronione."
+          ]
+        },
+        {
+          title: "3. WYŁĄCZENIA ODPOWIEDZIALNOŚCI (DISCLAIMERS)",
+          emphasize: true,
+          body: [
+            "INFORMACJE O PRODUKTACH: OPISY, PARAMETRY TECHNICZNE (ODPORNOŚĆ CHEMICZNA, TERMICZNA ITP.) ORAZ WIZUALIZACJE POKRYW PŁYWAJĄCYCH MAJĄ CHARAKTER INFORMACYJNY I POCHODZĄ BEZPOŚREDNIO OD PRODUCENTA (AWTT). SPÓŁKA NIE GWARANTUJE ICH BEZBŁĘDNOŚCI ANI AKTUALNOŚCI.",
+            "KORZYSTANIE Z SERWISU: USŁUGA JEST DOSTARCZANA „TAK JAK JEST” („AS IS”) ORAZ „W MIARĘ DOSTĘPNOŚCI”. SPÓŁKA NIE UDZIELA ŻADNYCH GWARANCJI, WYRAŹNYCH ANI DOROZUMIANYCH, DOTYCZĄCYCH DZIAŁANIA SERWISU.",
+            "OGRANICZENIE ODPOWIEDZIALNOŚCI: W ŻADNYM WYPADKU SPÓŁKA, JEJ CZŁONKOWIE LUB PRACOWNICY NIE PONOSZĄ ODPOWIEDZIALNOŚCI ZA SZKODY BEZPOŚREDNIE, POŚREDNIE, NASTĘPCZE (UTRATA ZYSKU, PRZESTÓJ W DZIAŁALNOŚCI) LUB KARNE WYNIKAJĄCE Z KORZYSTANIA LUB BRAKU DOSTĘPU DO SERWISU."
+          ]
+        },
+        {
+          title: "4. LINKI DO STRON TRZECICH",
+          body: [
+            "Serwis może zawierać linki do stron osób trzecich, w tym do strony AWTT. Spółka nie kontroluje treści, polityk prywatności ani praktyk tych stron i nie ponosi za nie odpowiedzialności."
+          ]
+        },
+        {
+          title: "5. ZMIANY WARUNKÓW",
+          body: [
+            "Spółka zastrzega sobie prawo do zmiany niniejszych warunków w dowolnym czasie bez wcześniejszego powiadomienia.",
+            "Użytkownik jest zobowiązany do regularnego sprawdzania tej strony.",
+            "Dalsze korzystanie z serwisu po publikacji zmian oznacza ich akceptację."
+          ]
+        }
+      ],
+      contactLabel: "6. KONTAKT",
+      contactText: "W sprawach dotyczących niniejszych warunków prosimy o kontakt:",
+      contactEmail: "hinnovcompamy@gmail.com"
     },
     sitemap: {
       title: "Mapa strony",
